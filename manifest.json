@@ -13,6 +13,6 @@
           "storage"
   ],
   "web_accessible_resources": [
-    "/injected.js"
+    "/TOP.js"
   ]
 }
