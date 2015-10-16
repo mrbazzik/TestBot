@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": [ "http://hi-psy.ru/elearning/test?id=6" ],
+      "matches": [ "http://hi-psy.ru/elearning/test?id=16", "http://hi-psy.ru/elearning/test?id=16&go=1"],
       "js": [ "jquery.js", "background.js" ],
       "run_at": "document_end"
     }
@@ -13,6 +13,6 @@
           "storage"
   ],
   "web_accessible_resources": [
-    "/TOP.js"
+    "/PsychDiag.js"
   ]
 }

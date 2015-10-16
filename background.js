@@ -1,4 +1,4 @@
-﻿$.get(chrome.extension.getURL('/TOP.js'), 
+﻿$.get(chrome.extension.getURL('/PsychDiag.js'), 
     function(data) {
         var script = document.createElement("script");
         script.setAttribute("type", "text/javascript");
